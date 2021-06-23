@@ -112,7 +112,7 @@ class BaseAnalyzer:
                 if version == [2, 92]:
                     if module_name == "bpy.data":
                         module_name = "bpy"
-                if version == [2, 93]:
+                if version == [2, 96]:
                     if module_name == "bpy.data":
                         module_name = "bpy"
 
