@@ -44,7 +44,7 @@ declare -A BLENDER_DOWNLOAD_URL_LINUX=(
     ["v2.90"]="https://download.blender.org/release/Blender2.90/blender-2.90.0-linux64.tar.xz"
     ["v2.91"]="https://download.blender.org/release/Blender2.91/blender-2.91.0-linux64.tar.xz"
     ["v2.92"]="https://download.blender.org/release/Blender2.92/blender-2.92.0-linux64.tar.xz"
-    ["v2.93"]="https://download.blender.org/release/Blender2.93/blender-2.93.0-linux64.tar.xz"
+    ["v2.93"]="https://download.blender.org/release/Blender2.93/blender-2.93.0-linux-x64.tar.xz"
 )
 
 declare -A NEED_MOVE_MACOSX=(
@@ -65,7 +65,7 @@ declare -A NEED_MOVE_LINUX=(
     ["v2.90"]="blender-2.90.0-linux64"
     ["v2.91"]="blender-2.91.0-linux64"
     ["v2.92"]="blender-2.92.0-linux64"
-    ["v2.93"]="blender-2.93.0-linux64"
+    ["v2.93"]="blender-2.93.0-linux-x64"
 )
 
 declare -A BLENDER_CHECKSUM_URL=(
